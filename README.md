@@ -37,6 +37,11 @@ Specifically, we find the bounding box and centre of mass of non-background pixe
 
 The croped image part is resized to 20x20 pixels and pasted into a 28x28 image at origin 4,4. This creates a 4 pixel margin on all sides (just like MNIST). Greyscale values result from interpolation of pixel intensities.
 
+# Training and Test sets
+We haven't decided how to split the dataset into training and test sets. You can do this.
+
+Note that MNIST was split with consideration of which individuals' handwriting was included in each set.
+
 # Output image labels
 The dataset includes uppercase characters A-Z (ascii 0x41 to 0x5a / 65 to 90). We use the two-digit ASCII codes to label the images with integer values:
 
