@@ -1,6 +1,6 @@
 # Preprocessing for NIST Special Dataset #19 (handwritten character recognition)
 
-This repository contains Java code without any dependencies to preprocess NIST Special Dataset #19 (characters A..Z) to the same format as used in the famous MNIST handwritten digit (0..9) recognition dataset. The MNIST dataset was preprocessed by Yann LeCun as described here:
+This repository contains Java code without any dependencies to preprocess NIST Special Dataset #19 (characters A..Z) to the same format (in terms of image content) as used in the famous MNIST handwritten digit (0..9) recognition dataset (but stored as PNG files). The MNIST dataset was preprocessed by Yann LeCun as described here:
 
 http://yann.lecun.com/exdb/mnist/
 
